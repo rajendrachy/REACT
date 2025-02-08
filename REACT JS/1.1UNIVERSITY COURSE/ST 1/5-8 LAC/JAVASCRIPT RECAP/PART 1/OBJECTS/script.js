@@ -56,29 +56,30 @@
 
 
 
-const user2 = { 
-    firstName : "Adarsh",
-    lastName : "Singh", // last-Name -->> not possible and not possible to access with a dot(.) notation -->>> Error
 
-    address : { // Nasted Object
-       city : 'Banglore' ,
-       pincode : '9485774',
-       state : 'Karnataka',
+// const user2 = { 
+//     firstName : "Adarsh",
+//     lastName : "Singh", // last-Name -->> not possible and not possible to access with a dot(.) notation -->>> Error
+
+//     address : { // Nasted Object
+//        city : 'Banglore' ,
+//        pincode : '9485774',
+//        state : 'Karnataka',
 
 
-       moreDetails : { // Nasted Objects
-        population : 9388477484848,
-        area : '787 sq km',
+//        moreDetails : { // Nasted Objects
+//         population : 9388477484848,
+//         area : '787 sq km',
 
-       }
-    }
-} 
-console.log(user2);
-user2.age = 26; // add
-user2["is-student"] = "Yes";
-console.log(user2);
+//        }
+//     }
+// } 
+// console.log(user2);
+// user2.age = 26; // add
+// user2["is-student"] = "Yes";
+// console.log(user2);
 
-console.log(user2.address);
-console.log(user2.address["pincode"]);
-console.log(user2.address.moreDetails["population"]);
+// console.log(user2.address);
+// console.log(user2.address["pincode"]);
+// console.log(user2.address.moreDetails["population"]);
 
