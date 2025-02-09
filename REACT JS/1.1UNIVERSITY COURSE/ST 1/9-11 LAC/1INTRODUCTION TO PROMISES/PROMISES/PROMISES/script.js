@@ -2,7 +2,7 @@
 //------------------Creating a Promises---------------------------
 // const p = new Promise() // error
 
-// ----------------so create a function or pass the function--------------
+// ----------------So create a function or pass the function--------------
 // const p = new Promise((resolve, reject) => {
 //      resolve({name:"Rajendra Chaudhary"})
 //     reject('promises is rejected')
@@ -50,4 +50,6 @@ const p = new Promise((resolve, reject) => {
 // setTimeout(() => {
 //     console.log('hi');
 // }, 4000);
+
+
 
