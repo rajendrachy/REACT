@@ -35,7 +35,6 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
-
 // -------------async and await------------------------------
 // async function makerequest(e) {
 //     e.preventDefault();
@@ -129,31 +128,34 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
-async function makerequest(e) {
-    e.preventDefault();
-    let namee = document.getElementById("name").value;
-    let jobs = document.getElementById("job").value;
+// async function makerequest(e) {
+//     e.preventDefault();
+//     let namee = document.getElementById("name").value;
+//     let jobs = document.getElementById("job").value;
 
-    console.log("Button Click");
+//     console.log("Button Click");
 
-    const config = {
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        data: JSON.stringify({ name: namee, job: jobs })
-    };
+//     const config = {
+//         headers: {
+//             'Content-Type': 'application/json'
+//         },
+//         data: JSON.stringify({ name: namee, job: jobs })
+//     };
 
-    try {
-        const res = await axios.post('https://reqres.in/api/users', config.data, config);
-        let resultDiv = document.getElementById("result");
+//     try {
+//         const res = await axios.post('https://reqres.in/api/users', config.data, config);
+//         let resultDiv = document.getElementById("result");
 
-        resultDiv.innerHTML = ""; // Clear previous results
+//         resultDiv.innerHTML = ""; // Clear previous results
 
-        Object.entries(res.data).forEach(ele => {
-            resultDiv.innerHTML += `<p>${ele[0]}: ${ele[1]}</p>`;
-        });
+//         Object.entries(res.data).forEach(ele => {
+//             resultDiv.innerHTML += `<p>${ele[0]}: ${ele[1]}</p>`;
+//         });
 
-    } catch (err) {
-        document.getElementById("result").innerHTML = `<p>Error: ${err.response ? err.response.data.error : err.message}</p>`;
-    }
-}
+//     } catch (err) {
+//         document.getElementById("result").innerHTML = `<p>Error: ${err.response ? err.response.data.error : err.message}</p>`;
+//     }
+// }
+
+
+
