@@ -3,6 +3,7 @@
 
 
 // --------------PART 1-------------
+// --------------Creating a OBJECT--------------------
 
 // const user = {
 //     firstName : "Rajendra", // key : value
@@ -32,6 +33,7 @@
 // const user1 = {  
 //     firstName : "Akash",
 // } 
+
 // // const user2 = { 
 
 // //     firstName : "Adarsh",

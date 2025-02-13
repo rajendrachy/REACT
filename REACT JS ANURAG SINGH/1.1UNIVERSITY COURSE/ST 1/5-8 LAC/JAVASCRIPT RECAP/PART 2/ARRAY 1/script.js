@@ -12,8 +12,7 @@
 
 
 
-// ------------- 2 .-----------
-
+// ------------- 2----------------
 // const userName = "Rajendra chaudhary";
 // const fruitCollection = [
 //     'Apple', 
@@ -63,13 +62,15 @@
 
 
 
-// --------------------- 5 -> POP ------------------------
+
+// ---------------------5 -> POP------------------------
 
 // const fruitCollection = ['Apple', 'Banana', 'Grapes', 'Dates'];
 // fruitCollection.pop();  // last element is removed
 // console.log(fruitCollection);
 // fruitCollection.pop();  // last element is removed
-// fruitCollection.pop();  // last element is removedconsole.log(fruitCollection); // Output -->>  Apple
+// fruitCollection.pop();  // last element is removed
+// console.log(fruitCollection); // Output -->>  Apple
 // fruitCollection.pop();  // last element is removed
 // console.log(fruitCollection);
 // fruitCollection.pop();
