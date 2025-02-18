@@ -13,8 +13,13 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 //   promiseObj.then((res) => {
 //     console.log(res);
 //     console.log(res.data); // Hello, Rajendra chaudhary
+//     console.log(res.status)
 //   })
+
 // }
+
+
+
 
 
 // Or------------------Get Method---------------------------
@@ -140,16 +145,16 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 //---------async and await error Handling----------------------------
-async function makerequest() {
-  try {
-    console.log('Button click');
-  const res = await axios.get('data.txt');
-  console.log(res);
-  console.log(res.data);
-  const result = document.getElementById('divdata')
-   result.innerText = res.data;
-  } catch(err) {
-    console.log(err);
-  }
+// async function makerequest() {
+//   try {
+//     console.log('Button click');
+//   const res = await axios.get('data.txt');
+//   console.log(res);
+//   console.log(res.data);
+//   const result = document.getElementById('divdata')
+//    result.innerText = res.data;
+//   } catch(err) {
+//     console.log(err);
+//   }
  
-}
+// }

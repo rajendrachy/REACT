@@ -1,10 +1,12 @@
+// LINK YT -> https://www.youtube.com/watch?v=qHKGk-RPtpA
+
+
 //______________Async and Await Function______________________
 
 // const p = function makeRequest() { 
 //     return 'hello';
 // }
 // console.log(p);
-
 
 
 
@@ -43,7 +45,7 @@
 
 // -----------If we want to reject promises-----------------------
 // async function makeRequest() {
-//     throw new Error('error in program'); // promises rejucted
+//     throw new Error('error in program'); // promises rejected
 // }
 // console.log(makeRequest());
 
@@ -55,6 +57,7 @@
 
 
 //-----------------Async and Await--------------------------
+// ---------API-------------------
 // async function makeRequest() {
 //     const url = 'https://jsonplaceholder.typicode.com/users';
 //     const responsePromise = fetch(url)
@@ -88,9 +91,9 @@
 
 
 
-// function addTwoNUmber() {
-//     return 5 + 8;
-// }
+// // function addTwoNUmber() {
+// //     return 5 + 8;
+// // }
 
 
 
