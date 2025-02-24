@@ -1,0 +1,54 @@
+/* //---------clock css---------------------- */
+
+
+#currTime {
+  height: 50px;
+  width: 250px;
+  border: 1px solid black;
+   font-family: cursive;
+  color: rgb(128, 130, 240); 
+} 
+
+
+#clockSlog {
+   height: 50px;
+  width: 250px;
+   border: 1px solid black; 
+  font-family: Arial, Helvetica, sans-serif; 
+   color: rgba(255, 0, 0, 0.537); 
+ }
+
+
+
+h2 {
+  background-color: rgba(211, 211, 211, 0.55);
+} 
+
+/* ---------------------end -------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/* css------------ -------props-------------- */
+.kg-item {
+  background-color: rgba(240, 197, 140, 0.316);
+}
+
+.kg-span {
+  font-weight: bold;
+  color: orange;
+}
+
+.food-heading {
+  background-color: silver;
+  color: rgb(101, 165, 42);
+}
+
+/* ------------------end------------------------- */

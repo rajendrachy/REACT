@@ -9,9 +9,9 @@
 
 // --------- unshift => Similar to PUSH ------------
 
-// const evenNumber = [0, 2, 4, 6, 8];
-// console.log(evenNumber.unshift(-2, -5, -0));
-// console.log(evenNumber);
+const evenNumber = [0, 2, 4, 6, 8];
+console.log(evenNumber.unshift(-2, -5, -0));
+console.log(evenNumber);
 
 
 

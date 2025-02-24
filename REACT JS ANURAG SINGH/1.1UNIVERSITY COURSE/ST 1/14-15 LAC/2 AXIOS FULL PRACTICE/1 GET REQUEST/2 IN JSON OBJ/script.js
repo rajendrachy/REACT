@@ -21,6 +21,7 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
+
 // Or------------------Get Method---------------------------
 
 // function makerequest() {
@@ -55,6 +56,10 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 // }
 
 
+
+
+
+
 //--------------Error Handling------------------
 // function makerequest() {
 //   console.log('Button click');
@@ -70,6 +75,8 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 //     console.log("clean"); 
 //   })
 // }
+
+
 
 
 
@@ -98,6 +105,26 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
+//---------------Practice----------------
+// function makerequest() {
+//   console.log("Button Clicked");
+
+//   axios.get("data.json")
+//   .then((res) => {
+//     // console.log(res);
+//     console.log(res.data);
+//     console.log(res.data.name);
+
+
+//     const result = document.querySelector("#divdata");
+//     for (let key in res.data) {
+//       const p = document.createElement("p");
+//       p.textContent = `${key}: ${res.data[key]}`;
+//       result.appendChild(p);
+//   }
+
+//   })
+// }
 
 
 
@@ -123,6 +150,32 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
+// -------------------------Practice-------------------------------
+//
+// const res = document.querySelector('#divdata');
+// async function makerequest() {
+//   console.log("Button Clicked");
+
+//   config = {
+//     method : "get",
+//     url : 'data.json',
+//   }
+
+//   const response = await axios(config);
+//   console.log(response);
+//   console.log(response.data);
+
+//   for(let key in response.data) {
+//     const p = document.createElement('p');
+//     p.innerText = `${key} : ${response.data[key]}`;
+//     res.appendChild(p);
+//   }
+  
+// }
+
+// ______________________________________________________________
+ 
+
 //----------------OR---------------------
 // async function makerequest() {
 //   console.log('Button click');
@@ -142,16 +195,16 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 //---------async and await error Handling----------------------------
-async function makerequest() {
-  try {
-    console.log('Button click');
-  const res = await axios.get('data.json');
-  console.log(res);
-  console.log(res.data.name);
-  const result = document.getElementById('divdata')
-   result.innerText = res.data.name;
-  } catch(err) {
-    console.log(err);
-  }
-}
+// async function makerequest() {
+//   try {
+//     console.log('Button click');
+//   const res = await axios.get('data.json');
+//   console.log(res);
+//   console.log(res.data.name);
+//   const result = document.getElementById('divdata')
+//    result.innerText = res.data.name;
+//   } catch(err) {
+//     console.log(err);
+//   }
+// }
 

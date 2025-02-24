@@ -27,6 +27,27 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
+// function makerequest() {
+//     console.log("Button clicked");
+//    config = {
+//     method : "get",
+//     url : 'https://jsonplaceholder.typicode.com/posts/1',
+//    }
+
+//    const promiseObj = axios(config);
+//    promiseObj.then((res) => {
+//     console.log(res);
+//     console.log(res.data.body);
+//    })
+// }
+
+
+
+
+
+
+
+
 
 
 // Or------------------Get Method---------------------------
@@ -104,8 +125,6 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 //     console.log("clean"); // after catch the then always exexute
 //   })
 // }
-
-
 
 
 

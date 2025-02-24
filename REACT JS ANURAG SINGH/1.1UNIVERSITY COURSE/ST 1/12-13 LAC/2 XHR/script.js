@@ -17,6 +17,8 @@ const button = document.querySelector('button');
 // })
 
 
+
+
 // button.addEventListener("click", () => {
 //     const xhr = new XMLHttpRequest();
 //     console.log(xhr);

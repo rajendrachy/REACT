@@ -6,31 +6,69 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 // ------------Promise then / -> Post data in the server-----------------------
+function makerequest(e) {
+    e.preventDefault();
+    let namee = document.getElementById("name").value;
+    let jobs = document.getElementById("job").value;
+
+    console.log("Button Click");
+
+
+    const config = {
+        method : 'POST',
+        url : 'https://reqres.in/api/users',
+        headers : {
+            'Content-Type':'application/json'
+        },
+        data : JSON.stringify({name: namee, job: jobs}),
+    }
+
+
+    axios(config).then((res) => {
+        console.log(res.data);
+    }).catch ((err) => {
+        console.log(err);
+    })
+}
+
+
+
+
+
 // function makerequest(e) {
 //     e.preventDefault();
-//     let namee = document.getElementById("name").value;
-//     let jobs = document.getElementById("job").value;
-
-//     console.log("Button Click");
-
-
-//     const config = {
-//         method : 'POST',
-//         url : 'https://reqres.in/api/users',
-//         headers : {
-//             'Content-Type':'application/json'
-//         },
-//         data : JSON.stringify({name: namee, job: jobs}),
-//     }
-
+  
+//     let name = document.querySelector("#name").value;
+//     let job = document.querySelector("#job").value;
+  
+//     console.log("Button clicked");
+  
+//     let config = {
+//       method: "POST", // Fixed "method" typo
+//       url: "https://reqres.in/api/users",
+//       headers: {
+//         "Content-Type": "application/json",
+//       },
+//       data: JSON.stringify({ name: name, job: job }),
+//     };
+  
 //     axios(config).then((res) => {
-//         console.log(res.data);
-//     }).catch ((err) => {
-//         console.log(err);
-//     })
-// }
-
-
+//       console.log(res.data);
+  
+//       let resu = document.querySelector("#result");
+//       resu.innerHTML = ""; // Clear previous content
+  
+//       // Loop through the array and extract 'id'
+//       Object.entries(res.data).forEach(([Key, value]) => {
+//         const p = document.createElement('p');
+//         p.innerHTML += `
+//              <p>${Key}: ${value}</p>
+//         `;
+//         resu.appendChild(p)
+//       })
+//     });
+//   }
+  
 
 
 
@@ -49,6 +87,7 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 //         },
 //         data: JSON.stringify({ name: namee, job: jobs })
 //     };
+
 
 //     const res = await axios.post('https://reqres.in/api/users', config.data, config);
 //     console.log(res.data);
@@ -156,6 +195,7 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 //         document.getElementById("result").innerHTML = `<p>Error: ${err.response ? err.response.data.error : err.message}</p>`;
 //     }
 // }
+
 
 
 

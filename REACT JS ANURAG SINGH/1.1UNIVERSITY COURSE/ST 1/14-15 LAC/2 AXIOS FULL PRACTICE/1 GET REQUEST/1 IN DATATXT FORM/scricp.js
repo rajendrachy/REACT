@@ -1,6 +1,6 @@
 //----------------GET Method--------------------------
 
-document.getElementById("btn").addEventListener('click', makerequest); // this should not comment in all the code
+document.getElementById("btn").addEventListener('click', makerequest); // This should not comment in all the code
 
 // function makerequest() {
 //   console.log('Button click');
@@ -15,8 +15,8 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 //     console.log(res.data); // Hello, Rajendra chaudhary
 //     console.log(res.status)
 //   })
-
 // }
+
 
 
 
@@ -125,6 +125,7 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
+
 //----------------OR---------------------
 // async function makerequest() {
 //   console.log('Button click');
@@ -135,6 +136,7 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 //   const result = document.getElementById('divdata')
 //   result.innerText = res.data;
 // }
+
 
 
 
