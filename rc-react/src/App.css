@@ -52,3 +52,64 @@ h2 {
 }
 
 /* ------------------end------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------To-Do-App---------------------css-- */
+#add {
+  background-color: green;
+  color: white;
+  padding: 6px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#del {
+  background-color: rgba(255, 34, 0, 0.843);
+  padding: 6px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ----------------end--------------------- */
+
+
+
+
+
+
+
+
+/* -------------calculator Project----------------------- */
+#calculator{
+  border: 1px solid rgba(0, 0, 0, 0.289);
+  width: 200px;
+  border-radius: 5px;
+}
+
+#display {
+  margin: 10px;
+  width: 175px;
+  font-size: 20px;
+}
+
+#buttons-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#btn {
+  height: 45px;
+  width: 45px;
+  margin: 3px;
+}

@@ -29,14 +29,14 @@
 
 // --------------Another same Way-------------------
 
-// const Item = ({items}) => {
+const Item = ({items}) => {
 
-//     return (
-//       <>
-//       <li className="list-group-item kg-item"><span className="kg-span">{items}</span></li>
-//       </>
-//     )
-//   }
-//   export default Item;
+    return (
+      <>
+      <li className="list-group-item kg-item"><span className="kg-span">{items}</span></li>
+      </>
+    )
+  }
+  export default Item;
   
   

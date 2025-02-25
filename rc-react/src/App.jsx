@@ -154,22 +154,36 @@
 
 // --------------------------Props----------------------------------
 
-// import React from "react";
-// import "./App.css";
-// import FoodItems from './props/FoodItems';
-// import ErrorMessage from "./props/ErrorMessage";
+import React from "react";
+import "./App.css";
+import FoodItems from './props/FoodItems';
+import ErrorMessage from "./props/ErrorMessage";
+import { Container } from "./props/Container";
 
-// export function App() {
-//   let items = ['Dall', 'Green Veg', 'roti', 'Salad', 'Milk'];
+export function App() {
+  let items = ['Dall', 'Green Veg', 'roti', 'Salad', 'Milk'];
 
-//   return (
-//    <>
-//    <h1 className="food-heading">Healthy Foods</h1>
-//    <FoodItems item ={items}/>
-//    <ErrorMessage item ={items}/>
-//    </>
-//   )
-// }
+  return (
+    <>
+   <Container>
+   <h1 className="food-heading">Healthy Foods</h1>
+   <FoodItems item ={items}/>
+   <ErrorMessage item ={items}/>
+   </Container>
+
+
+<Container>
+    <p>Above is the list of healthy foods that are good for your health and well being.</p>
+</Container>
+   </>
+  )
+}
+
+
+
+
+
+
 
 
 
@@ -179,3 +193,69 @@
 
 // ----------------------To-do-App---------------------------------
 // -----------In -> codesandbox.io----------------------------
+
+// import "./App.css";
+// import { AppName } from "./ToDoApp/Appname";
+// import { Addtodo } from "./ToDoApp/Addtodo";
+// import { TodoItem } from "./ToDoApp/TodoItem";
+// import {TodoItems} from "./ToDoApp/TodoItems";
+
+// export function App() {
+// // -----making array Object-------
+
+//     const todoItems =
+//         [
+//             {
+//                 name: 'Buy Milk',
+//                 dueDate: '4/10/2023',
+//             },
+
+//             {
+//                 name: 'Go To College',
+//                 dueDate: '4/10/2023',   
+//             },
+
+//             {
+//                 name: 'Like this video',
+//                 dueDate: 'right Now',
+//             },
+//         ]
+
+
+//     return (
+//         <center id="todo-co">
+//             <AppName />
+//             <Addtodo />
+//             <TodoItems todoItems={todoItems}/>
+
+//         </center>
+//     );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------Project--Calculator--------------------------------
+// import './App.css';
+// import { Display } from './calculator/Display';
+// import {ButtonContainer} from './calculator/ButtonsContainer'
+
+// export function App() {
+//     return (
+//         <center>
+//         <div id="calculator">
+//             <Display />
+//              <ButtonContainer /> 
+//         </div>
+//         </center>
+//     )
+// }
+
