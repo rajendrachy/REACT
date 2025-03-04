@@ -1,0 +1,7 @@
+//------------------ Props in the React Js--------------------
+// . What is Props ?
+// . Make Component
+// . Pass Data between components => var, object, array
+// . Pass data in component with click
+// . interview questions
+

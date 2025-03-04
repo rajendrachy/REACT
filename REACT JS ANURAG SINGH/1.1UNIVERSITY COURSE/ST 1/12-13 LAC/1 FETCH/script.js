@@ -16,6 +16,9 @@
 
 
 
+
+
+
 //--------POST request--------------------
 // fetch('https://dummyjsons.com/products/add', {
 //     method: 'POST',

@@ -1,8 +1,8 @@
 
-// export function Display() {
+// export function Display({displayValue}) {
 //     return (
 //         <>
-//         <input type="text" id="display" />
+//         <input type="text" id="display" value={displayValue} readOnly/>
 //         </>
 //     )
 // }
