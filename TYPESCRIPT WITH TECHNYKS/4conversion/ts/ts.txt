@@ -1,0 +1,6 @@
+debugging => mostly use a sourceMap
+
+ctrt+f -> search
+
+type tsc in the terminal of vsCode
+and file crerated automatically index.js.sourceMap
