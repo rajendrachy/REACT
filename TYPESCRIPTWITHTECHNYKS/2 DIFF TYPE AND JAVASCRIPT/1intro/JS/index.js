@@ -9,3 +9,7 @@ function add (a, b) {
 return a + b; //no type checking
 }
 add(1, 4);
+
+
+
+

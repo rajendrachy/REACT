@@ -38,7 +38,7 @@
 // import { CurrentTime } from "./components2/CurrentTime";
 
 
-// function App() {
+// export function App() {
 //   return (
 //     <center>
 //      <ClockHeading/>
@@ -48,7 +48,7 @@
 //   );
 // }
 
-// export default App;
+
 
 
 
@@ -200,52 +200,52 @@
 // ----------------------To-do-App---------------------------------
 // -----------In -> codesandbox.io----------------------------
 
-import "./App.css";
-import { AppName } from "./ToDoApp/Appname";
-import { Addtodo } from "./ToDoApp/Addtodo";
-import { TodoItem } from "./ToDoApp/TodoItem";
-import TodoItems from "./ToDoApp/TodoItems";
-import { useState } from "react";
-import WelcomeMessage from "./ToDoApp/WelcomeMessage";
-// import { TodoItemsContext } from "./store/todo-items-store";
+// import "./App.css";
+// import { AppName } from "./ToDoApp/Appname";
+// import { Addtodo } from "./ToDoApp/Addtodo";
+// import { TodoItem } from "./ToDoApp/TodoItem";
+// import TodoItems from "./ToDoApp/TodoItems";
+// import { useState } from "react";
+// import WelcomeMessage from "./ToDoApp/WelcomeMessage";
+// // import { TodoItemsContext } from "./store/todo-items-store";
 
 
-export function App() {
-// -----making array Object-------
+// export function App() {
+// // -----making array Object-------
 
-        const [todoItems, setTodoItems] = useState([]);
+//         const [todoItems, setTodoItems] = useState([]);
 
-        const handleNewItem = (itemName, itemDueDate) => {
-          //  console.log(`New Item Addes: ${itemName} Date:${itemDueDate}`)
-           const newTodoItems = [...todoItems, {name:itemName, dueDate: itemDueDate}]
-           setTodoItems(newTodoItems);
-        };
-
-
-        const handledeleteItem = (todoItemName) => {
-          const newTodoItems = todoItems.filter(item => item.name !== todoItemName);
-          setTodoItems(newTodoItems);
-              // console.log(`Item Deleted: ${todoItemName}`);
-        }
+//         const handleNewItem = (itemName, itemDueDate) => {
+//           //  console.log(`New Item Addes: ${itemName} Date:${itemDueDate}`)
+//            const newTodoItems = [...todoItems, {name:itemName, dueDate: itemDueDate}]
+//            setTodoItems(newTodoItems);
+//         };
 
 
+//         const handledeleteItem = (todoItemName) => {
+//           const newTodoItems = todoItems.filter(item => item.name !== todoItemName);
+//           setTodoItems(newTodoItems);
+//               // console.log(`Item Deleted: ${todoItemName}`);
+//         }
 
 
-    return (
 
-        // <TodoItemsContext.Provider>
-        <div id="todo-co">
 
-            <AppName />
-            <Addtodo onNewItem={handleNewItem}/>
-            {todoItems.length === 0 &&<WelcomeMessage />}
-            <TodoItems todoItems={todoItems}
-            onDeleteClick={handledeleteItem}/>
+//     return (
 
-        </div>
-        // </TodoItemsContext.Provider>
-    );
-}
+//         // <TodoItemsContext.Provider>
+//         <div id="todo-co">
+
+//             <AppName />
+//             <Addtodo onNewItem={handleNewItem}/>
+//             {todoItems.length === 0 &&<WelcomeMessage />}
+//             <TodoItems todoItems={todoItems}
+//             onDeleteClick={handledeleteItem}/>
+
+//         </div>
+//         // </TodoItemsContext.Provider>
+//     );
+// }
 
 
 
@@ -600,6 +600,97 @@ export function App() {
 //     </>
 //   );
 // }
+
+
+
+
+
+
+
+
+
+
+
+//---------------TOdo App------------------------------
+// Link-> YT-> https://www.youtube.com/watch?v=zQFzFsbRiB8
+// import './App.css';
+// import { useState } from 'react';
+
+
+// export function App() {
+
+//     let [todoList, setTodoList] = useState([]);
+    
+
+
+//     let saveToDoList = (event) => {
+//         let toname= event.target.toname.value;
+//     //    alert(toname);
+//     if(!todoList.includes(toname)) {
+//         let finaltodoList = [...todoList, toname];
+//         setTodoList(finaltodoList);
+
+//     }  else {
+//         alert('todo already exists');
+//     }
+//        event.preventDefault();
+//     }
+
+
+
+//     let list = todoList.map((value, index) => {
+//         return (
+//             <ToDoListItem key={index} indexNumber={index} value={value}
+//             todoList={todoList} setTodoList={setTodoList}/>
+//         )
+//     })
+
+
+
+//      return (
+//         <div>
+//         <h2>To Do List</h2>
+
+//         <form onSubmit={saveToDoList}>
+//             <input type="text" name='toname' />
+//             <button>Save</button>  
+//         </form>
+
+
+
+//         <div className='outerDiv'>
+//             <ul>
+//            {list}
+//             </ul>
+//         </div>
+//         </div>
+//      )
+// }
+ 
+
+
+// function ToDoListItem ({value, indexNumber, todoList, setTodoList}) {
+//     let deleteRow = () => {
+//     // alert(indexNumber);
+//     let finalData = todoList.filter((v, i) => i != indexNumber);
+//     setTodoList(finalData);
+
+//     }
+
+
+//     return (
+//         <li>{indexNumber+1} {value} <span onClick={deleteRow}>&times;</span></li>
+//     )
+// }
+
+
+
+
+
+
+
+
+
 
 
 

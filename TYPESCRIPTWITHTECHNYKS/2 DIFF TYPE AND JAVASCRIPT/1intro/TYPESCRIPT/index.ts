@@ -17,3 +17,4 @@ function add1 (a: number, b: number): number { // last one is any type
     }
 
     add1(2, 4);
+

@@ -9,3 +9,4 @@ console.log(y);
 a1 = 'y';
 console.log(a1);
 //# sourceMappingURL=index.js.map
+

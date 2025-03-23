@@ -114,3 +114,61 @@ h2 {
   width: 45px;
   margin: 3px;
 } */
+
+
+
+
+
+
+
+
+
+/* ------------To do app--------------- */
+/* https://www.youtube.com/watch?v=zQFzFsbRiB8 */
+
+
+form {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+
+}
+
+
+form input {
+  flex-basis: 20%;
+  gap: 20px;
+
+}
+
+form button {
+  flex-basis: 5%;
+}
+
+.outerDiv {
+  width: 1170px;
+  margin: auto;
+}
+
+.outerDiv ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.outerDiv li {
+  padding: 10px;
+  color: white;
+  position: relative;
+  background-color: black;
+  text-align: left;
+  margin: 8px;
+  width: 400px;
+}
+
+.outerDiv span {
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+

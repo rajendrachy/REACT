@@ -1,7 +1,7 @@
-const WelcomeMessage = () => {
-return <p style={{color: "green", fontSize:'30px'}}></p>
-}
+// const WelcomeMessage = () => {
+// return <p style={{color: "green", fontSize:'30px'}}></p>
+// }
 
-export default WelcomeMessage;
+// export default WelcomeMessage;
 
 
