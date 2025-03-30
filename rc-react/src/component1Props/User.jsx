@@ -1,11 +1,15 @@
 // import React from "react";
 
-// export function User(props) {
+// export function User({section}) {
 //   return (
 //     <div>
-//       <h2>User Section: {props.section}</h2>
+//       <h2>User Section: {section}</h2>
 //     </div>
 //   );
 // }
+
+
+
+
 
 

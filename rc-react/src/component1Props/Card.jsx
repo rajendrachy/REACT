@@ -12,9 +12,13 @@
 //     margin: "10px auto",
 //   };
 
+
 //   return (
 //     <div>
 //       <h3 style={style}>{arr[indx]}</h3>
 //     </div>
 //   );
 // }
+
+
+

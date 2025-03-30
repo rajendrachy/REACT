@@ -1,0 +1,70 @@
+-----------------useEffect Hook in React-------------------
+The useEffect hook allows you to perform side effects in function components, 
+such as:
+
+1.Fetching data
+2.Subscribing to events
+3.Manipulating the DOM
+4.Setting up timers
+
+---------------Basic Syntax--------------
+import React, { useEffect } from "react";
+
+function ComponentName() {
+  useEffect(() => {
+    // Side effect logic here
+
+    return () => {
+      // Cleanup logic (optional)
+    };
+  }, [dependencies]); // Dependency array
+}
+
+
+
+
+
+
+
+
+----------------------Types of useEffect Usage------------------
+1️⃣ Run on Every Render (No Dependency Array)
+
+useEffect(() => {
+  console.log("Runs on every render");
+});
+
+
+2️⃣ Run Once on Mount ([] as Dependency)
+
+useEffect(() => {
+  console.log("Runs only once when the component mounts");
+}, []);
+
+
+
+
+3️⃣ Run When a Specific State/Prop Changes
+
+useEffect(() => {
+  console.log("Runs when `count` changes");
+}, [count]);
+
+
+
+
+
+4️⃣ Cleanup Function (Runs When Component Unmounts)
+
+useEffect(() => {
+  const interval = setInterval(() => {
+    console.log("Updating...");
+  }, 1000);
+
+  return () => {
+    clearInterval(interval); // Cleanup when unmounting
+  };
+}, []);
+
+
+

@@ -2,10 +2,10 @@
 // ----------------Props----------------------------
 // import React from "react";
 // import "./App.css";
-// import { User } from "./component1/User";
-// import Card from "./component1/Card"; // Ensure Card is correctly imported
+// import { User } from "./component1Props/User";
+// import Card from "./component1Props/Card"; // Ensure Card is correctly imported
 
-// function App() {
+// export function App() {
 //   return (
 //     <>
 //       <User section="E2" />
@@ -16,7 +16,9 @@
 //   );
 // }
 
-// export default App;
+
+
+
 
 
 
@@ -33,9 +35,9 @@
 
 // import React from "react";
 // import "./App.css";
-// import {ClockHeading} from "./components2/ClockHeading";
-// import { ClockSlogan } from "./components2/ClockSlogan";
-// import { CurrentTime } from "./components2/CurrentTime";
+// import {ClockHeading} from "./Clock/ClockHeading";
+// import { ClockSlogan } from "./Clock/ClockSlogan";
+// import { CurrentTime } from "./Clock/CurrentTime";
 
 
 // export function App() {
@@ -56,11 +58,18 @@
 
 
 
+
+
+
+
+
+
+
 //----------------------Fragments---------------------------------------
 
 // import React from "react";
 // import "./App.css";
-// // React.Fragment is Used to remove extra div in JSX -> symBol => <></>
+// // React.Fragment is Used to remove extra div in JSX(JavaScript XML) -> symBol => <></>
 // export function App() {
 //   return (
 //     <React.Fragment>
@@ -109,6 +118,12 @@
 //    </>
 //   )
 // }
+
+
+
+
+
+
 
 
 
@@ -304,6 +319,29 @@
 
 
 
+//---------------------class Compinent-------------------
+// import React, { Component } from "react";
+// class ComponentName extends Component {
+//     render() {
+//       return (
+//         <div>
+//           <h1>Heading</h1>
+//         </div>
+//       );
+//     }
+//   }
+  
+
+
+
+
+
+
+
+
+
+
+
 
 //---------------Start----------------------------
 //-------------------state--------------------------
@@ -361,6 +399,42 @@
 
 
 
+
+
+//---------------start------------------------
+//----------------------Default and Dynamic props-------------------------
+// Example of Default Props and Dynamic Props in a Function Component
+
+// import React from "react";
+
+// function Greeting({ name = "Guest" }) {
+//   return (
+//     <div>
+//       <h1>Hello, {name}!</h1>
+//     </div>
+//   );
+// }
+
+// export default Greeting;
+// Usage Example
+// jsx
+// Copy
+// Edit
+// import React from "react";
+// import Greeting from "./Greeting";
+
+// function App() {
+//   return (
+//     <div>
+//       <Greeting /> {/* Uses default prop "Guest" */}
+//       <Greeting name="Rajendra" /> {/* Uses dynamic prop "Rajendra" */}
+//     </div>
+//   );
+// }
+
+// export default App;
+
+//----------end---------------------------------
 
 
 
@@ -426,6 +500,9 @@
 //         </div>
 //     )
 // }
+
+
+
 
 
 
