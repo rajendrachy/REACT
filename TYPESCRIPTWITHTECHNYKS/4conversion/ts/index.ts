@@ -388,3 +388,27 @@
 
 //----------------interface vs type alias-------------------
 
+// interface User {
+//     name: string,
+//     phone: number
+// }
+
+// interface Customer extends User {
+//     address: string,
+
+// }
+
+// let muCustomer: Customer = {
+//     name: 'X',
+//     phone: 2323,
+//     address: "Dhangadhi",
+// }
+// type Vehicle = {
+//     name: string,
+//     model: string
+// };
+ 
+// //& -> intersection types
+// type Car = Vehicle & {
+//     isEllectric: boolean,
+// }
