@@ -35,7 +35,9 @@ useEffect(() => {
 });
 
 
-2️⃣ Run Once on Mount ([] as Dependency)
+
+2️⃣ Run Once on Mount ([] as Dependency) // In React, mounting refers to the process of initializing and inserting
+ a component into the DOM.
 
 useEffect(() => {
   console.log("Runs only once when the component mounts");
@@ -54,7 +56,8 @@ useEffect(() => {
 
 
 
-4️⃣ Cleanup Function (Runs When Component Unmounts)
+4️⃣ Cleanup Function (Runs When Component Unmounts) // Unmounting refers to the phase when a React component 
+is removed from the DOM.
 
 useEffect(() => {
   const interval = setInterval(() => {

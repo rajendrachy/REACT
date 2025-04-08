@@ -35,7 +35,7 @@
 //----------------optional and default parameters---------------
 
 //optional parameters
-// function greet(username: string, greeting?: string): string {
+// function greet(username: string, greeting?: string): string { // => optimal parameter it ca be undefined.
 //     // if(!greeting) {
 //     //     return '';
 //     // }
@@ -48,7 +48,10 @@
 // console.log(greet('Rajendra'));
 
 
-// // default parameters
+
+
+
+// default parameters
 // function greet1(username: string, greeting: string = 'Hi'): string {
 //     return `${greeting} ${username}`;
 // }
@@ -68,6 +71,10 @@
 
 
 //------------function Overloading-------------
+// Simple Definition of Function Overloading
+// Function overloading allows a function to have multiple ways to be called, 
+// with different parameter types or numbers. 
+
 
 // function getLength(value: string): number; //Return the number
 // function getLength(value: any[]): number;  //Return the number
@@ -92,6 +99,7 @@
 
 //----------------Rest Parameters--------------------
 // Rest parameters in TypeScript (and JavaScript) allow a function to accept an undefined number of arguments. 
+// Rest parameters allow a function to accept an unlimited number of arguments as an array.
 
 // function sum(...numbers: number[]): number{
 //     return numbers.reduce((total, num) => {
@@ -102,10 +110,16 @@
 // console.log(sum(1, 2, 3, 4));
 
 
-// function greet1(greeting: string, ...names: string[]): void {
-//     names.forEach((name) => {
-//         console.log(`${greeting} ,${name}`);
-//     })
-// }
-// console.log("Hello", 'codewith', 'codeman', 'code2025');
+
+
+
+function greet1(greeting: string, ...names: string[]): void { // 
+    names.forEach((name) => {
+        console.log(`${greeting}, ${name}`);
+    });
+}
+
+// Call the function correctly
+greet1("Hello", 'codewith', 'codeman', 'code2025');
+
 

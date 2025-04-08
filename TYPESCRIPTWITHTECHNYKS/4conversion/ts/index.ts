@@ -79,7 +79,7 @@
 
 
 //-----------Any Type------------------
-
+// In TypeScript, the any type allows a variable to hold any type of value (string, number, object, array, etc.
 // let numVal: any;
 // numVal = 1;
 // numVal = 'a';
@@ -91,7 +91,7 @@
 
 
 // ---------------to avoid writing type----------------
-// function testAnyType(val) {  // "noImplicitAny": false,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+// function testAnyType(val) {  // "noImplicitAny": false,   /* Enable error reporting for expressions and declarations with an implied 'any' type. */
 
 //     console.log(val)
 // }
@@ -133,6 +133,8 @@
 
 
 //-------------------enum---------------------------
+// An enum (enumeration) is a way to define a set of named constants (fixed values).
+// It improves code readability and helps prevent errors from using arbitrary values.
 // ----------------Syntax-----------------
 // enum enumName {
 
@@ -238,6 +240,8 @@
 
 
 //--------------void type-----------------
+// The void type is used when a function does not return any value
+
 // function logMessage(message: string): void{
 //     console.log(message);
 //     return null; // error only pass void or undefined

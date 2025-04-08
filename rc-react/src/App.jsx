@@ -655,6 +655,119 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------start-----------------------------
+//----------------quiz App-------------------------------------------
+// import React, { useState } from "react";
+// import quizData from "./quizApp/question";
+
+// export function App() {
+//     const [currQn, setCurrQn] = useState(0);
+//     const [score, setScore] = useState(0);
+//     const [showScore, setShowScore] = useState(false);
+//     const [selectedAns, setSelectedAns] = useState(null);
+
+//     const handleAns = (option) => {
+//         setSelectedAns(option);
+        
+//         setTimeout(() => {
+//             if (option === quizData[currQn].correctAnswer) {
+//                 setScore(score + 1);
+//             }
+            
+//             const nextQn = currQn + 1;
+//             if (nextQn < quizData.length) {
+//                 setCurrQn(nextQn);
+//                 setSelectedAns(null);
+//             } else {
+//                 setShowScore(true);
+//             }
+//         }, 500);
+//     };
+
+//     return (
+//         <center>
+//             {showScore ? (
+//                 <h2>Your score: {score} / {quizData.length}</h2>
+//             ) : (
+//                 <>
+//                     <h2>{quizData[currQn].question}</h2>
+//                     {quizData[currQn].options.map((opt, i) => (
+//                         <button 
+//                             key={i} 
+//                             onClick={() => handleAns(opt)} 
+//                             style={{ backgroundColor: selectedAns === opt && opt === quizData[currQn].correctAnswer ? "blue" : "gray" }}
+//                         >
+//                             {opt}
+//                         </button>
+//                     ))}
+//                 </>
+//             )}
+//         </center>
+//     );
+// }
+// //------------end---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //----------Todo App------------------
 // import './App.css';
 // import { useState } from 'react';
@@ -759,6 +872,8 @@
 //         <li>{indexNumber+1} {value} <span onClick={deleteRow}>&times;</span></li>
 //     )
 // }
+
+
 
 
 
