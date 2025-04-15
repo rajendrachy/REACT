@@ -1,5 +1,6 @@
 // import React, { useEffect, useState } from 'react';
 
+
 // const ProductList = () => {
 //   const [products, setProducts] = useState([]);
 //   const [selected, setSelected] = useState(null);
@@ -9,6 +10,7 @@
 //       .then(res => res.json())
 //       .then(data => setProducts(data));
 //   }, []);
+
 
 //   return (
 //     <div>
@@ -37,3 +39,8 @@
 // };
 
 // export default ProductList;
+
+
+
+
+

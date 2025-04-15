@@ -21,7 +21,8 @@
 
 
 
-//---------------------Advance version-------------------
+// ---------------------Advance version-------------------
+
 // import React, { useState, useEffect } from "react";
 
 // export function CurrentTime() {
@@ -31,6 +32,7 @@
 //         const interval = setInterval(() => {
 //             setTime(new Date());
 //         }, 1000);
+
 
 //         return () => clearInterval(interval); // Cleanup on unmount
 //     }, []);
@@ -43,3 +45,15 @@
 //         </div>
 //     );
 // }
+
+
+
+
+
+
+
+
+
+
+
+

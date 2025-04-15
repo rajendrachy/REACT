@@ -1,7 +1,13 @@
 -----------------Props in React---------------------
 In React, props (short for "properties") are used to pass data from 
 a parent component to a child component. They make components dynamic
- and reusable.
+and reusable.
+
+
+
+
+
+
 
 
 
@@ -18,6 +24,8 @@ Passed from Parent to Child – Used to send data and event handlers.
 Reusable Components – Same component can be used with different props.
 
 Can Pass Any Data Type – Strings, numbers, arrays, objects, functions, etc.
+
+
 
 
 

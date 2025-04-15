@@ -11,7 +11,7 @@
 // console.log(y);
 //--------------Use command to run this -> ts-node index.ts
 
-
+//------------to install latest version of the node -> nvm install --lts
 
 // a1 = 'y';
 // console.log(a1);
@@ -43,7 +43,7 @@
 
 
 
-//---------undefinde----------
+//---------undefined----------
 // let val: undefined = undefined;
 
 // let val;
@@ -206,13 +206,13 @@
 
 
 //-----------------Unknown Type--------------------------
-// let notSure: unknown = 'a';
+let notSure: unknown = 'a';
 
-// if (typeof notSure === 'number') {
-//     notSure.toFixed(2);
-// } else if (typeof notSure === 'string') {
-//     notSure.length;
-// }
+if (typeof notSure === 'number') {
+    notSure.toFixed(2);
+} else if (typeof notSure === 'string') {
+    notSure.length;
+}
 
 
 

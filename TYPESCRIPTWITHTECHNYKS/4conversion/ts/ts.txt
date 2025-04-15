@@ -6,4 +6,4 @@ type tsc in the terminal of vsCode
 and file crerated automatically index.js.sourceMap
 
 
-// typescript INstillation -> npm i typescript -g => g for globally INstillation
+// typescript Instillation -> npm i typescript -g => g for globally Instillation

@@ -33,6 +33,7 @@
 //         <button type="submit">Submit</button>
 //       </form>
 
+
 //       {data.length > 0 && (
 //         <table border="1" style={{ marginTop: "20px" }}>
 //           <thead><tr><th>Name</th><th>Dept</th><th>Feedback</th><th>Rating</th></tr></thead>
@@ -48,3 +49,17 @@
 // };
 
 // export default FeedbackForm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // ------------practicing----------------------
