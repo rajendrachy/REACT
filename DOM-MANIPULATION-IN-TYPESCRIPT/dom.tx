@@ -1,0 +1,25 @@
+npx tsc --init  # if not already
+npx tsc   # compile index.ts to dist/index.js
+
+
+
+🔰------------- SECTION 1: Introduction-------------------
+What is DOM?
+DOM stands for Document Object Model.
+It represents your webpage as a tree structure with elements (like buttons, inputs) that you can manipulate using code.
+
+
+
+
+
+
+ 1. ---------Setup Instructions-----------
+mkdir dom-ts-tutorial && cd dom-ts-tutorial
+npm init -y
+npm install typescript lite-server --save-dev
+npx tsc --init
+
+
+
+
+

@@ -5,6 +5,7 @@
 // import { User } from "./component1Props/User";
 // import Card from "./component1Props/Card"; // Ensure Card is correctly imported
 
+
 // export function App() {
 //   return (
 //     <>
@@ -55,6 +56,8 @@
 
 
 //---------------End----------------------------------------
+
+
 
 
 
@@ -861,7 +864,7 @@
 
 
 
-// //---------------TOdo App------------------------------
+// //---------------Todo App------------------------------
 // // Link-> YT-> https://www.youtube.com/watch?v=zQFzFsbRiB8
 // // import './App.css';
 // // import { useState } from 'react';
@@ -1083,3 +1086,41 @@
 //   )
 // }
 //--------------End--------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//------------Start------------------
+//--------------------------Routing--------------------------------------
+// import { Home } from "./reactRouter2025/Home";
+
+// export function App() {
+//   return (
+//     <>
+//       <h2>Router Router 7 tutorial</h2>
+//       <Home />
+//     </>
+//   );
+// }
+
+
+//--------------End----------------------

@@ -1,0 +1,2 @@
+-------------Instillation of Router---------------
+ => npm i react-router
