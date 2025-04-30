@@ -6,30 +6,30 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 // ------------Promise then / -> Post data in the server-----------------------
-function makerequest(e) {
-    e.preventDefault();
-    let namee = document.getElementById("name").value;
-    let jobs = document.getElementById("job").value;
+// function makerequest(e) {
+//     e.preventDefault();
+//     let namee = document.getElementById("name").value;
+//     let jobs = document.getElementById("job").value;
 
-    console.log("Button Click");
-
-
-    const config = {
-        method : 'POST',
-        url : 'https://reqres.in/api/users',
-        headers : {
-            'Content-Type':'application/json'
-        },
-        data : JSON.stringify({name: namee, job: jobs}),
-    }
+//     console.log("Button Click");
 
 
-    axios(config).then((res) => {
-        console.log(res.data);
-    }).catch ((err) => {
-        console.log(err);
-    })
-}
+//     const config = {
+//         method : 'POST',
+//         url : 'https://reqres.in/api/users',
+//         headers : {
+//             'Content-Type':'application/json'
+//         },
+//         data : JSON.stringify({name: namee, job: jobs}),
+//     }
+
+
+//     axios(config).then((res) => {
+//         console.log(res.data);
+//     }).catch ((err) => {
+//         console.log(err);
+//     })
+// }
 
 
 

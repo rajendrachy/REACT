@@ -5,6 +5,8 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
+
+
 // ------------Promise then-----------------------
 // function makerequest() {
 //     console.log("Button Click");
@@ -35,28 +37,28 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 //-------or-----------
-function makerequest() {
-    console.log("Button Click");
+// function makerequest() {
+//     console.log("Button Click");
 
-    const config = {
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        data: {
-            name: "Rajendra",
-            job: "Web Dev"
-        }
-    };
+//     const config = {
+//         headers: {
+//             'Content-Type': 'application/json'
+//         },
+//         data: {
+//             name: "Rajendra",
+//             job: "Web Dev"
+//         }
+//     };
 
 
-    axios.post('https://reqres.in/api/users', config.data, config)
-        .then((res) => {
-            console.log(res.data);
-        })
-        .catch((err) => {
-            console.log(err);
-        });
-}
+//     axios.post('https://reqres.in/api/users', config.data, config)
+//         .then((res) => {
+//             console.log(res.data);
+//         })
+//         .catch((err) => {
+//             console.log(err);
+//         });
+// }
 
 
 
@@ -111,4 +113,5 @@ function makerequest() {
 //     const res = await axios.post('https://reqres.in/api/users', config.data, config);
 //     console.log(res.data);
 // }
+
 

@@ -56,10 +56,10 @@ const rejectebtn = document.querySelector("#reject-btn");
 
 
 
-// //----------setTimeout-------------
-setTimeout(() => {
-    console.log('hi');
-}, 4000);
+// // //----------setTimeout-------------
+// setTimeout(() => {
+//     console.log('hi');
+// }, 4000);
 
 
 

@@ -1,6 +1,7 @@
-// Genetic => Generics are the way to create components(functions, classes or interface)
+// Generic => Generics are the way to create components(functions, classes or interface)
 // that work with different types without 
 // lossing type safety
+
 
 
 //------Dynamically TypeCast generic function---------

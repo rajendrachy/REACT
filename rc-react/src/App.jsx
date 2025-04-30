@@ -1,21 +1,27 @@
 // // // ----------------------Lab Pracite-------------------------
 // // // ----------------Props----------------------------
-// // import React from "react";
-// // import "./App.css";
-// // import { User } from "./component1Props/User";
-// // import Card from "./component1Props/Card"; // Ensure Card is correctly imported
+// import React from "react";
+// import "./App.css";
+// import { User } from "./component1Props/User";
+// import Card from "./component1Props/Card"; // Ensure Card is correctly imported
 
 
-// // export function App() {
-// //   return (
-// //     <>
-// //       <User section="E2" />
-// //       <Card indx={0} bgcolor="green" />
-// //       <Card indx={1} bgcolor="orange" />
-// //       <Card indx={2} bgcolor="red" />
-// //     </>
-// //   );
-// // }
+// export function App() {
+//   return (
+//     <>
+//       <User section="E2" />
+//       <Card indx={0} bgcolor="green" />
+//       <Card indx={1} bgcolor="orange" />
+//       <Card indx={2} bgcolor="red" />
+//     </>
+//   );
+// }
+
+
+
+
+
+
 
 
 
@@ -1265,3 +1271,23 @@
 
 
 
+
+
+
+
+
+
+
+//----------------------Axios-----------------------
+//------------Start-------------------
+// import { Post } from "./AXIOSPOSTREQUEST/Post";
+
+// export function App() {
+//     return(
+//         <>
+//         <Post />
+//         </>
+//     )
+// }
+
+//------------end-----------------

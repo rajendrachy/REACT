@@ -206,13 +206,13 @@
 
 
 //-----------------Unknown Type--------------------------
-let notSure: unknown = 'a';
+// let notSure: unknown = 'a';
 
-if (typeof notSure === 'number') {
-    notSure.toFixed(2);
-} else if (typeof notSure === 'string') {
-    notSure.length;
-}
+// if (typeof notSure === 'number') {
+//     notSure.toFixed(2);
+// } else if (typeof notSure === 'string') {
+//     notSure.length;
+// }
 
 
 

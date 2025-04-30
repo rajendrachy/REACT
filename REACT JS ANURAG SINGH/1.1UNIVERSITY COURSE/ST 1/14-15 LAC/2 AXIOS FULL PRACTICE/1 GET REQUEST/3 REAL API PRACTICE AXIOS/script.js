@@ -27,6 +27,9 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
+
+
+
 // function makerequest() {
 //     console.log("Button clicked");
 //    config = {

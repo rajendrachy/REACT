@@ -111,13 +111,12 @@
 // let size: Size = Size.Large;
 // console.log('size', size);
 //-----------------Unknown Type--------------------------
-let notSure = 'a';
-if (typeof notSure === 'number') {
-    notSure.toFixed(2);
-}
-else if (typeof notSure === 'string') {
-    notSure.length;
-}
+// let notSure: unknown = 'a';
+// if (typeof notSure === 'number') {
+//     notSure.toFixed(2);
+// } else if (typeof notSure === 'string') {
+//     notSure.length;
+// }
 //-------------------never Type---------------
 // function infiniteLoop(): never {
 //     while(true) {

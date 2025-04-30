@@ -120,7 +120,7 @@ makeRequest();
 // --------------Using type="module" in the script link we can use await outside the async function------------------------
 
 // const url = 'https://jsonplaceholder.typicode.com/users';
-// const responsePromise = await fetch(url) // We know the fetch always return the promis
+// const responsePromise = await fetch(url) // We know the fetch always return the promise
 // const data = await responsePromise.json(); // await is only valid inside async function // Using type="module" in the script link we can use await outside the async function
 // console.log(data);  // .json() converts the response body from a readable stream to a JavaScript object.
 
