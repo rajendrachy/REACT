@@ -36,7 +36,7 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
-//-------or-----------
+//---------or-----------
 // function makerequest() {
 //     console.log("Button Click");
 
@@ -59,6 +59,8 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 //             console.log(err);
 //         });
 // }
+
+
 
 
 

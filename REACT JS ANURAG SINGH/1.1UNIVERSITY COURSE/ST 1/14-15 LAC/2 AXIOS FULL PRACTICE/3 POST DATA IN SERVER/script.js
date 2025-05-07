@@ -73,6 +73,8 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
+
+
 // -------------async and await------------------------------
 // async function makerequest(e) {
 //     e.preventDefault();
@@ -159,6 +161,8 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 //         document.getElementById("result").innerHTML = `<p>Error: ${err.response ? err.response.data.error : err.message}</p>`;
 //     }
 // }
+
+
 
 
 

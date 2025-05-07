@@ -17,8 +17,6 @@ function controlEnterVal(e: Event): void {
      }
 }
 
-
-
 EnterVal.addEventListener('input', controlEnterVal);
 
 

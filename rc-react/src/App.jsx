@@ -1117,19 +1117,22 @@
 
 // //------------Start------------------
 // //--------------------------Routing--------------------------------------
-// // import { Home } from "./reactRouter2025/Home";
+// import { Home } from "./reactRouter2025/Home";
 
-// // export function App() {
-// //   return (
-// //     <>
-// //       <h2>Router Router 7 tutorial</h2>
-// //       <Home />
-// //     </>
-// //   );
-// // }
+// export function App() {
+//   return (
+//     <>
+//       <h2>Router Router 7 tutorial</h2>
+//       <Home />
+//     </>
+//   );
+// }
 
 
-// //--------------End----------------------
+// ---------------Done in Thapa Technical Folder--------------------------
+
+
+ //--------------End----------------------
 
 
 
@@ -1178,6 +1181,7 @@
 //     setCategory("");
 //     setShowSummary(true); 
 //   };
+
 
 //   const income = transactions
 //     .filter((t) => t.type === "income")

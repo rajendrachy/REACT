@@ -19,9 +19,8 @@ root.render(
   {/* <ProductList /> */}
   {/* <WeatherApp /> */}
     </StrictMode>  
-  //  </BrowserRouter> 
+//  </BrowserRouter> 
 );
-
 
 
 
