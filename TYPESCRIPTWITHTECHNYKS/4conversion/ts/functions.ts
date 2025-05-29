@@ -1,9 +1,9 @@
 // Regular function
-// function addNumber(a: number, b: number): number {
-//     return a + b;
-// }
+function addNumber(a: number, b: number): number {
+    return a + b;
+}
 
-// console.log(addNumber(2, 6));
+console.log(addNumber(2, 6));
 
 
 

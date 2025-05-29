@@ -1,9 +1,9 @@
-"use strict";
 // Regular function
-// function addNumber(a: number, b: number): number {
-//     return a + b;
-// }
-// console.log(addNumber(2, 6));
+function addNumber(a, b) {
+    return a + b;
+}
+console.log(addNumber(2, 6));
+
 // // functionexpression
 // const divide = function(a: number, b:number): number {
 //     return a / b;
@@ -51,10 +51,14 @@
 //     }, 0)
 // }
 // console.log(sum(1, 2, 3, 4));
-function greet1(greeting, ...names) {
-    names.forEach((name) => {
-        console.log(`${greeting}, ${name}`);
-    });
-}
-// Call the function correctly
-greet1("Hello", 'codewith', 'codeman', 'code2025');
+// function greet1(greeting) {
+//     var names = [];
+//     for (var _i = 1; _i < arguments.length; _i++) {
+//         names[_i - 1] = arguments[_i];
+//     }
+//     names.forEach(function (name) {
+//         console.log("".concat(greeting, ", ").concat(name));
+//     });
+// }
+// // Call the function correctly
+// greet1("Hello", 'codewith', 'codeman', 'code2025');

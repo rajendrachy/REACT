@@ -5,6 +5,8 @@
 // import { User } from "./component1Props/User";
 // import Card from "./component1Props/Card"; // Ensure Card is correctly imported
 
+// import { ThemeToggle } from "./endTermPracticing/ass17";
+
 
 // export function App() {
 //   return (
@@ -286,7 +288,7 @@
 
 
 
-
+// --------------value={name} in input field to clear the input field--------------
 // // //--todo app--
 // // // import React from "react";
 // // // import { useState } from "react";
@@ -335,6 +337,21 @@
 // // //  </div>
 // // //   )
 // // // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1294,6 +1311,186 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+//--------assignment 9-------------------
+// import { ToggleMessage} from "./endTermPracticing/ass9";
+// //------------------Toggle Message-------------------
+// export function App() {
+//     return (
+//         <>
+//             <ToggleMessage /> 
+//         </>
+//     );
+// }
+
+
+
+
+// //-------------End-------------------
+
+// //-------------Start-------------------
+// //-------------Assignment 10-------------------
+// import { useState } from "react";
+// import { TextInputdisplay } from "./endTermPracticing/ass10";
+// export function App() {
+//    return (
+//     <>
+//     <TextInputdisplay />
+//     </>
+//    )
+// }
+
+
+
+
+//start-------------------
+//assignment 11
+// import {ClickTracker} from "./endTermPracticing/ass11"
+// export function App() {
+//     return (
+//         <>
+//         <ClickTracker />
+//         </>
+//     )
+// }
+//-------------End-------------------
+
+
+
+
+
+
+
+//---start-------------------
+//assignment 12
+// import { SimpleForm } from "./endTermPracticing/ass12";
+
+// export function App() {
+//     return (
+//         <>
+//         <SimpleForm />
+//         </>
+//     )
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//--start-------------------
+//assignment 13
+// import { CharCounter } from "./endTermPracticing/ass13";
+
+// export function App() {
+//     return (
+//         <>
+//         <CharCounter />
+//         </>
+//     )
+// }
+//--End-------------------
+
+
+
+
+
+
+
+
+
+
+//--start-------------------
+//assignment 14
+// import { UserProfile } from "./endTermPracticing/ass14";
+
+// export function App() {
+//     return (
+//         <>
+//         <UserProfile />
+//         </>
+//     )
+// }
+
+
+//--End-------------------
+
+
+
+
+
+
+
+
+
+//-----start-------------------
+//assignment 15
+// import { PersistentInput } from "./endTermPracticing/ass15";
+// import { useState } from "react";
+
+// export function App() {
+//     const[trackText, setTrackText] = useState("");
+//     return (
+//         <>
+// <PersistentInput/>
+//         </>
+//     )
+// }
+
+
+
+
+
+
+
+
+//start-----------------
+//assignment 16
+// import { PostsFetcher } from "./endTermPracticing/ass16";
+
+// export function App() {
+//     return (
+//         <>
+//         <PostsFetcher />
+//         </>
+//     )
+// }
+
+
+
+
+
+
+
+
+
+// import { ToggleTheme } from "./endTermPracticing/ass17"
+// export function App() {
+//     return (
+//         <>
+//        <ToggleTheme/>
+//         </>
+//     )
+// }
 
 
 
