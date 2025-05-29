@@ -1,8 +1,8 @@
 // Regular function
-function addNumber(a, b) {
-    return a + b;
-}
-console.log(addNumber(2, 6));
+// function addNumber(a, b) {
+//     return a + b;
+// }
+// console.log(addNumber(2, 6));
 
 // // functionexpression
 // const divide = function(a: number, b:number): number {
@@ -14,6 +14,9 @@ console.log(addNumber(2, 6));
 //     return a * b;
 // }
 // console.log(multply(2, 3));
+
+
+
 //----------------optional and default parameters---------------
 //optional parameters
 // function greet(username: string, greeting?: string): string { // => optimal parameter it ca be undefined.

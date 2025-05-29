@@ -9,7 +9,6 @@ function controlEnterVal(e: Event): void {
 
      const isNUmeric = /^[0-9]*$/.test(val);
 
-
      if(!isNUmeric) {
         error.textContent = "please enter digit only (0-9)";
      } else {
@@ -18,6 +17,7 @@ function controlEnterVal(e: Event): void {
 }
 
 EnterVal.addEventListener('input', controlEnterVal);
+
 
 
 

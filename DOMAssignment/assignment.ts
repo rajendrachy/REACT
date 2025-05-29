@@ -3,6 +3,8 @@ const btn = document.querySelector("#btn") as HTMLButtonElement;
 const div = document.querySelector("#container") as HTMLDivElement;
 
 
+
+
 btn.addEventListener("click", (e: Event) => {
  e.preventDefault();
 
@@ -17,7 +19,6 @@ btn.addEventListener("click", (e: Event) => {
  names.value = "";
 
 })
-
 
 
 

@@ -12,9 +12,10 @@
 //--------------Use command to run this -> ts-node index.ts
 
 //------------to install latest version of the node -> nvm install --lts
-
+// To use the installed version immediately:   => nvm use --lts
 // a1 = 'y';
 // console.log(a1);
+
 
 
 
@@ -99,6 +100,7 @@
 
 
 
+
 // let valArray: [number, string] = [1, 'a'];
 
 
@@ -150,7 +152,7 @@
 // console.log(Color.Blue);
 // console.log(Color.Green);
 
-
+ 
 
 // enum Color { // there is Indexing system byDefault start from a 0(Zero)
 //     App_Name = 'my_app_name',
@@ -209,7 +211,7 @@
 // let notSure: unknown = 'a';
 
 // if (typeof notSure === 'number') {
-//     notSure.toFixed(2);
+//     notSure.toFixed(2); // // eg. => "19.46"
 // } else if (typeof notSure === 'string') {
 //     notSure.length;
 // }
@@ -271,6 +273,7 @@
 // let id: string | number; // id can be string or number
 // id = 'abc';
 // id = 101;
+
 
 
 // function printId(id: string | number) {

@@ -1,4 +1,4 @@
-//Q.N.1. write a typescript function to calculate a factirial of a number with propet type annotations
+//Q.N.1. write a typescript function to calculate a factorial of a number with propet type annotations
 // function factoral(num: number) : number {
 //     if(num == 0 || num == 1) {
 //         return 1;
@@ -107,6 +107,7 @@
 //     cc: number;
 // }
 
+
 // type VehicleData = Bike | CarData;
 
 // function getVehicleDetails(vehicle: VehicleData) {
@@ -124,14 +125,30 @@
 //     year: 2023,
 // }
 
+
+
+
+
+
+
+
+
+
+
 // let myBike: VehicleData = {
 //   type: 'bike',
 //   brand: 'BMW',
 //   cc: 400,
 // }
 
+
+
+
 // getVehicleDetails(myBike);
 // getVehicleDetails(myCarDetails);
+
+
+
 
 
 

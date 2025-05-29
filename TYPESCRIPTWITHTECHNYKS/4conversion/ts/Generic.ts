@@ -4,6 +4,10 @@
 
 
 
+
+
+
+
 //------Dynamically TypeCast generic function---------
 // function genericIdentity<T>(arg: T) : T {
 //     return arg;
@@ -12,6 +16,13 @@
 // console.log(genericIdentity<string>("Rajendra"));
 // console.log(genericIdentity<number>(100)); 
 // console.log(genericIdentity("Rajendra Chaudhary")); // byDefault any type
+
+
+
+
+
+
+
 
 
 // //------------generic Interface------------
@@ -24,6 +35,8 @@
 //   key: "Rajendra Chaudhary",
 //   value: 2311981617,
 // };
+
+
 
 
 

@@ -34,6 +34,8 @@
 
 
 
+
+
 //---------------Access modifiers(public, private, protected)---------------------
 // In TypeScript, access modifiers control the visibility and accessibility of class members (properties and methods). The three main access modifiers are:
 
@@ -42,6 +44,8 @@
 // private: Restricts access to the class member to only within the class itself.
 
 // protected: Allows access to the class member within the class and its subclasses (but not outside the class hierarchy).
+
+
 
 // class Car1 {
 //     private make: string;

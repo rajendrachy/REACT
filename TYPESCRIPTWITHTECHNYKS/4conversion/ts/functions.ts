@@ -1,9 +1,10 @@
 // Regular function
-function addNumber(a: number, b: number): number {
-    return a + b;
-}
+// function addNumber(a: number, b: number): number {
+//     return a + b;
+// }
 
-console.log(addNumber(2, 6));
+// console.log(addNumber(2, 6));
+
 
 
 
@@ -46,6 +47,7 @@ console.log(addNumber(2, 6));
 // }
 
 // console.log(greet('Rajendra'));
+
 
 
 
@@ -100,14 +102,18 @@ console.log(addNumber(2, 6));
 //----------------Rest Parameters--------------------
 // Rest parameters in TypeScript (and JavaScript) allow a function to accept an undefined number of arguments. 
 // Rest parameters allow a function to accept an unlimited number of arguments as an array.
+// The **0** at the end of the reduce function is the initial value of the accumulator
 
-// function sum(...numbers: number[]): number{
-//     return numbers.reduce((total, num) => {
-//         return total + num;
+function sum(...numbers: number[]): number{
+    return numbers.reduce((total, num) => {
+        return total + num;
 
-//     }, 0)
-// }
-// console.log(sum(1, 2, 3, 4));
+    }, 0)
+}
+console.log(sum(1, 2, 3, 4));
+
+
+
 
 
 
