@@ -24,6 +24,43 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 // }
 
 
+
+
+
+//---------------practicing-------------------
+// function makerequest() {
+//     console.log('Button click');
+//     config = {
+//         method:"get",
+//         url: "https://jsonplaceholder.typicode.com/posts",
+
+//     };
+
+//     const p = axios(config);
+//     p.then((res) => {
+//         console.log(res);
+//         console.log(res.data);
+
+//         const result = document.querySelector("#divdata");;
+        
+//         res.data.forEach((val) => {
+//            const p = document.createElement("p");
+//               p.innerHTML = `
+//                 <p>User ID: ${val.userId}</p>
+//                 <p>Title: ${val.title}</p>
+//                 <p>Body: ${val.body}</p>
+//                 <hr>
+//               `;
+
+//               result.appendChild(p);
+//         })
+//     })
+// }
+
+
+
+
+
 // const result = document.querySelector("#divdata");
 
 // function makerequest() {

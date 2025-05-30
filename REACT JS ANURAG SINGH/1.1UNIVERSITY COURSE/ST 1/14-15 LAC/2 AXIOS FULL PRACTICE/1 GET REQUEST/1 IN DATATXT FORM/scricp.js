@@ -26,6 +26,9 @@ document.getElementById("btn").addEventListener('click', makerequest); // This s
 
 
 
+
+
+
 // Or------------------Get Method---------------------------
 
 
@@ -101,6 +104,7 @@ document.getElementById("btn").addEventListener('click', makerequest); // This s
 //     console.log("clean"); // after catch the then always exexute
 //   })
 // }
+
 
 
 

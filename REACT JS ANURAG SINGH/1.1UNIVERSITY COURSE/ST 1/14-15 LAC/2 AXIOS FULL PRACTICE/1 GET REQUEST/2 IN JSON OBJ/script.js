@@ -23,6 +23,7 @@ document.getElementById("btn").addEventListener('click', makerequest); // this s
 
 
 
+
 // Or------------------Get Method---------------------------
 
 // function makerequest() {

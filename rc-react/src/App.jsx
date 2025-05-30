@@ -31,8 +31,6 @@
 
 
 
-
-
 // //----------------Start-----------------
 // // // -----------------------Clock--------------------------------
 
@@ -337,6 +335,79 @@
 // // //  </div>
 // // //   )
 // // // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//----------------------Procticing End Term-----------------------
+// import React from "react";
+// import { useState } from "react";
+
+// export function App(){
+//     const [name, setName] = useState("");
+//     const[id, setId] = useState("");
+//     const[check, setCheck] = useState(false);
+//     const[ans, setAns] = useState([]);
+
+
+
+//     function handleForm(e) {
+//         console.log("Clicked..");
+//         e.preventDefault();
+//         setAns([...ans, {name, id, check}]);
+//         setName("");
+//         setId("");
+//         setCheck("");
+    
+//     }
+//     return (
+//         <>
+//         <h2>TO-DO-APP</h2>
+//         <form >
+//             Name: <input type="text" value={name} placeholder="Enter the name...." onChange={(e) => setName(e.target.value)}/><br /><br />
+//             ID: <input type="text" value={id} placeholder="Enter the ID...." onChange={(e) => setId(e.target.value)}/><br /><br />
+//             Yes or No: <input type="checkbox"  checked={check} onChange={(e) => setCheck(e.target.checked)}/> <br /><br />
+//             <button onClick={handleForm}>Submit</button>
+//         </form> <br /><br />
+
+
+//         {ans && (
+//             <div>
+//                 <table border="1">
+//                     <thead>
+//                         <tr>
+//                             <th>Name</th>
+//                             <th>ID</th>
+//                             <th>Check</th>
+//                         </tr>
+//                     </thead>
+
+
+//                     <tbody>
+//                        {ans.map((entry, index) => (
+//                 <tr key={index}>
+//                   <td>{entry.name}</td>
+//                   <td>{entry.id}</td>
+//                   <td>{entry.check ? "Yes" : "No"}</td>
+//                 </tr>
+//               ))}
+//                     </tbody>
+//                 </table>
+//             </div>
+//         )}
+//         </>
+//     )
+// }
 
 
 
